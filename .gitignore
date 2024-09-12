@@ -1,0 +1,75 @@
+# Maven-specific files
+target/
+!target/classes/
+!target/test-classes/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Eclipse-specific files
+.classpath
+.project
+.settings/
+bin/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans-specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux-specific files
+*.swp
+*~
+.nfs*
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+
+# Java-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Selenium WebDriver specific
+selenium-screenshots/
+selenium-logs/
+
+# JUnit-specific files
+surefire-reports/
+failsafe-reports/
+
+# Maven Wrapper
+mvnw
+mvnw.cmd
